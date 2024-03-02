@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StudentManagementSystem.Data;
 using StudentManagementSystem.Data.Models;
+using StudentManagementSystem.Data.Seeders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,12 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 .AddEntityFrameworkStores<StudentManagementDbContext>();
 
 var app = builder.Build();
+
+using (var serviceScope = app.Services.CreateScope())
+{
+	var dbContext = serviceScope.ServiceProvider.GetRequiredService<StudentManagementDbContext>();
+	await new StudentManagementSeeder().SeedAsync(dbContext, serviceScope.ServiceProvider);
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

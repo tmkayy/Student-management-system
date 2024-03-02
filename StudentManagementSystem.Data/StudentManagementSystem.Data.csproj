@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StudentManagementSystem.Common\StudentManagementSystem.Common.csproj" />
     <ProjectReference Include="..\StudentManagementSystem.Data.Models\StudentManagementSystem.Data.Models.csproj" />
   </ItemGroup>
 

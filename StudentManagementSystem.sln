@@ -5,13 +5,17 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{DF46E563-D491-44C4-964A-700BE3022458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Web", "StudentManagementSystem.Web\StudentManagementSystem.Web.csproj", "{FDAC134D-1475-473E-9B29-69BAF404B53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Web", "StudentManagementSystem.Web\StudentManagementSystem.Web.csproj", "{FDAC134D-1475-473E-9B29-69BAF404B53E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F739DC00-BFF6-4BF7-8931-66B168032DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Data", "StudentManagementSystem.Data\StudentManagementSystem.Data.csproj", "{200A6746-9386-4D90-92E1-1BF73F47C764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Data", "StudentManagementSystem.Data\StudentManagementSystem.Data.csproj", "{200A6746-9386-4D90-92E1-1BF73F47C764}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Data.Models", "StudentManagementSystem.Data.Models\StudentManagementSystem.Data.Models.csproj", "{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagementSystem.Data.Models", "StudentManagementSystem.Data.Models\StudentManagementSystem.Data.Models.csproj", "{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A8D69538-6493-4F09-AF18-48D7750DC39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementSystem.Common", "StudentManagementSystem.Common\StudentManagementSystem.Common.csproj", "{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 		{FDAC134D-1475-473E-9B29-69BAF404B53E} = {DF46E563-D491-44C4-964A-700BE3022458}
 		{200A6746-9386-4D90-92E1-1BF73F47C764} = {F739DC00-BFF6-4BF7-8931-66B168032DAE}
 		{AA1A0B33-61B4-4F61-BABC-6DDBA309DBD9} = {F739DC00-BFF6-4BF7-8931-66B168032DAE}
+		{B4A1CEA0-54D3-4488-BC6C-1FBC32ADC70B} = {A8D69538-6493-4F09-AF18-48D7750DC39F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E9C50D5-DF8A-4FBF-A61E-40EADEB9632E}
